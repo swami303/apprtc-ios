@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.libraries          = "sqlite3", "stdc++.6", "icucore", "c++"
   s.dependency "libjingle_peerconnection"
   s.dependency "SocketRocket"
+  s.static_framework = true
 end
 
 # Publishing Pod use flags
